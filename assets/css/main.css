@@ -9,6 +9,12 @@
 
 
 
+@media (max-width: 768px) {
+	/* Estilos para dispositivos móviles */
+	.container {
+		text-align: center;
+	}
+}
 
 .container {
 	text-align: center;
@@ -39,7 +45,9 @@ section, summary, time, mark, audio, video {
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block;
+	//text-align: center
+}
 
 body {
 	line-height: 1;
@@ -3792,7 +3800,7 @@ input, select, textarea {
 		}
 
 		#main > .post {
-			padding: 8rem 8rem 6rem 8rem ;
+			padding: 8rem 8rem 6rem 8rem;
 		}
 
 			#main > .post header.major > .date {
