@@ -196,7 +196,7 @@ input, select, textarea {
 	}
 
 	p {
-		text-align: justify;
+		text-align: center;
 		margin: 0 0 2rem 0;
 	}
 
@@ -2928,6 +2928,10 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	section {
+		text-align: center;
+	}
+
 	header {
 		cursor: default;
 	}
@@ -3031,6 +3035,7 @@ input, select, textarea {
 	table {
 		margin: 0 0 2rem 0;
 		width: 100%;
+		text-align:left;
 	}
 
 		table tbody tr {
@@ -3041,6 +3046,9 @@ input, select, textarea {
 
 		table td {
 			padding: 0.75rem 0.75rem;
+		}
+		td.text-right {
+		  text-align: right;
 		}
 
 		table th {
@@ -3965,6 +3973,9 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		}
+		#main > .posts > p {
+			text-align: center; /* Centra el texto dentro de los elementos <p> */
 		}
 
 /* Footer */
