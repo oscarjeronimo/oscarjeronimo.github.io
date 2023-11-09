@@ -2706,6 +2706,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		margin-left: -1rem;
+		margin-bottom: 10px;
 		padding-left: 0;
 	}
 
