@@ -212,7 +212,9 @@
             function cambiarMensaje() {
                 var elemento = document.getElementById('horallamada');
                 var horaActual = new Date().getHours();
-                var diaDeLaSemana = new Date().getDay();
+				var diaDeLaSemana = new Date().getDay();
+
+				elemento.innerHTML = 'Ahora mismo estamos cerrados y no podremos atenderle, consulte nuestros <a href="#horarios">horarios</a>.';
 
                 if (diaDeLaSemana == 1) {
                     elemento.innerHTML = 'Ahora mismo estamos cerrados y no podremos atenderle, consulte nuestros <a href="#horarios">horarios</a>.';
@@ -239,7 +241,7 @@
 				if (diaDeLaSemana == 1) {
                     elemento.innerHTML = 'Hoy es lunes estamos cerrados';
 				}
-                if (diaDeLaSemana == 0 ||diaDeLaSemana == 2 || diaDeLaSemana == 3 || diaDeLaSemana == 4) {
+                if (diaDeLaSemana == 0 ||diaDeLaSemana == 2 || diaDeLaSemana == 3 || diaDeLaSemana == 4 || diaDeLaSemana == 5) {
                     if (horaActual >= 8.5) {
                         elemento.innerHTML = 'Ahora mismo estamos abiertos';
                     } else {
