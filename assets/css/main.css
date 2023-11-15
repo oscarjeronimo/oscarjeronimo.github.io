@@ -4734,4 +4734,15 @@ input, select, textarea {
 }
 
 #myBtn:hover {
+
+
+}
+
+a#myBtn:focus {
+	outline: none;
+}
+
+/* Estilo de foco para navegadores más antiguos (como IE) */
+a#myBtn::-moz-focus-inner {
+	border: 0;
 }
