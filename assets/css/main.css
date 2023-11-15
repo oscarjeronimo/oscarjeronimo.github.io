@@ -4720,3 +4720,18 @@ input, select, textarea {
 		}
 
 	}
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 15px;
+	background: none;
+	right: 15px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	padding: 15px;
+}
+
+#myBtn:hover {
+}
