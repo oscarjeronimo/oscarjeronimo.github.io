@@ -4731,6 +4731,7 @@ input, select, textarea {
 	border: none;
 	outline: none;
 	padding: 15px;
+	opacity: 0.8;
 }
 
 #myBtn:hover {
