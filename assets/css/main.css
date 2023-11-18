@@ -4740,6 +4740,7 @@ input, select, textarea {
 }
 
 a#myBtn:focus {
+	-webkit-tap-highlight-color: transparent;
 	outline: none;
 }
 
