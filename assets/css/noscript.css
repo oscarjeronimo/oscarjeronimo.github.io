@@ -20,8 +20,7 @@
 		#wrapper.fade-in:before {
 			display: none;
 		}
-
-/* Intro */
+	/* Intro */
 
 	body.is-preload #intro {
 		opacity: 1;
