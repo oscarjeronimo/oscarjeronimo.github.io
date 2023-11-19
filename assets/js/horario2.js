@@ -1,4 +1,3 @@
-
 //Cambiar seccion horario abierto cerrado
 
 function cambiarMensaje() {
@@ -13,14 +12,14 @@ function cambiarMensaje() {
     }
     if (diaDeLaSemana == 0 || diaDeLaSemana == 2 || diaDeLaSemana == 3 || diaDeLaSemana == 4) {
         if (horaActual >= 8.5) {
-            elemento.textContent = 'Ahora mismo estamos abiertos. ¡Llamanos!';
+            elemento.textContent = 'Ahora mismo estamos abiertos. Â¡Llamanos!';
         } else {
             elemento.textContent = 'Ahora mismo estamos cerrados y no podremos atenderle, consulte nuestros <a href="#horarios">horarios</a>.';
         }
     }
     if (diaDeLaSemana == 6 || diaDeLaSemana == 0) {
         if (horaActual <= 2.5 || horaActual >= 12) {
-            elemento.textContent = 'Ahora mismo estamos abiertos. ¡Llamanos!';
+            elemento.textContent = 'Ahora mismo estamos abiertos. Â¡Llamanos!';
         } else {
             elemento.textContent = 'Ahora mismo estamos cerrados y no podremos atenderle, consulte nuestros <a href="#horarios">horarios</a>.';
         }
@@ -50,5 +49,5 @@ function cambiarMensaje() {
 }
 
 
-// Llama a la función cuando se carga la página
+// Llama a la funciÃ³n cuando se carga la pÃ¡gina
 window.onload = cambiarMensaje;
