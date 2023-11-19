@@ -58,17 +58,19 @@
 			on = function() {
 
 				$bg
-					.removeClass('fixed')
-					.css('transform', 'matrix(1,0,0,1,0,0)');
+					.addClass('fixed')
+					.css('transform', 'none');
+					//.removeClass('fixed')
+					//.css('transform', 'matrix(1,0,0,1,0,0)');
 
 				$window
-					.on('scroll._parallax', function() {
+					/*.on('scroll._parallax', function() {
 
 						var pos = parseInt($window.scrollTop()) - parseInt($t.position().top);
 
 						$bg.css('transform', 'matrix(1,0,0,1,0,' + (pos * intensity) + ')');
 
-					});
+					});*/.off('scroll._parallax');
 
 			};
 

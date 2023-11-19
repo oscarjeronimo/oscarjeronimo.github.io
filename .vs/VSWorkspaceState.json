@@ -4,8 +4,9 @@
     "\\assets",
     "\\assets\\css",
     "\\assets\\js",
-    "\\assets\\webfonts"
+    "\\assets\\sass",
+    "\\assets\\sass\\layout"
   ],
-  "SelectedNode": "\\assets\\css\\fontawesome-all.min.css",
+  "SelectedNode": "\\assets\\js\\horario.js",
   "PreviewInSolutionExplorer": false
 }
