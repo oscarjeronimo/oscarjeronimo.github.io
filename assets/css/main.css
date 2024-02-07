@@ -3343,6 +3343,9 @@ input, select, textarea {
 		text-align: center;
 		z-index: 1;
 		min-height: 100vh;
+		text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+		backdrop-filter: blur(4px);
+		-webkit-backdrop-filter: blur(4px);
 	}
 
 		#intro input, #intro select, #intro textarea {
@@ -4760,6 +4763,7 @@ a#myBtn::-moz-focus-inner {
 	border-radius: 10px;
 	background-color: rgba(255, 255, 255, 0.5); /* Ajusta el último valor (0.5) para cambiar la opacidad */
 	backdrop-filter: blur(4px); /* Ajusta el valor de desenfoque según sea necesario */
+	-webkit-backdrop-filter: blur(4px);
 	height: 75px;
 	text-align: center;
 }
