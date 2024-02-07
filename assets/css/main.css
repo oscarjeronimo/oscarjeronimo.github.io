@@ -10,9 +10,12 @@
 
 
 @media (max-width: 768px) {
-	/* Estilos para dispositivos móviles */
+	/* Estilos para dispositivos mï¿½viles */
 	.container {
 		text-align: center;
+	}
+	.titulo{
+		width: 60vw;
 	}
 }
 
@@ -46,7 +49,7 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
-	//text-align: center
+	/*text-align: center*/
 }
 
 body {
@@ -164,7 +167,7 @@ input, select, textarea {
 		}
 
 	body {
-		color: #212931;
+		color: #ffffff;
 	}
 
 	body, input, select, textarea {
@@ -326,7 +329,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #212931;
+		color: #ffffff;
 	}
 
 	blockquote {
@@ -2225,9 +2228,9 @@ input, select, textarea {
 	input[type="button"],
 	button,
 	.button {
-		background-color: transparent;
-		box-shadow: inset 0 0 0 2px #212931;
-		color: #212931 !important;
+		background-color: #641c34;
+		box-shadow: inset 0 0 0 2px #ffffff;
+		color: #ffffff !important;
 	}
 
 		input[type="submit"]:hover,
@@ -3263,7 +3266,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			//background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
+			/*background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");*/
 			background-image: url("../../images/bg.jpg");
 			/*background-size: auto,								auto,														100% auto;*/
 			background-size: auto,auto, contain;
@@ -3650,7 +3653,7 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
-		background: rgba(255, 255, 255, 0.175);
+		background: rgba(0, 0, 0, 0.175);
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
@@ -3757,11 +3760,11 @@ input, select, textarea {
 					}
 
 				#nav ul.links li.active {
-					background-color: #ffffff;
+					background-color: #222;
 				}
 
 					#nav ul.links li.active a {
-						color: #1e252d;
+						color: #ffffff;
 					}
 
 						#nav ul.links li.active a:hover {
@@ -3791,7 +3794,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #ffffff;
+		background-color: #222222;
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
@@ -3991,8 +3994,8 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #f5f5f5;
-		color: #909498;
+		background-color: #222;
+		color: #ffffff;
 		cursor: default;
 		position: relative;
 		margin: 0 auto;
@@ -4006,7 +4009,7 @@ input, select, textarea {
 		}
 
 		#footer a {
-			color: #717981;
+			color: #ffffff;
 			border-bottom-color: rgba(113, 121, 129, 0.5);
 		}
 
@@ -4020,7 +4023,7 @@ input, select, textarea {
 		}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-			color: #717981;
+			color: #ffffff;
 		}
 
 		#footer blockquote {
@@ -4662,7 +4665,7 @@ input, select, textarea {
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
+			/*vertical-align: middle;*/
 			width: 7rem;
 		}
 
@@ -4743,17 +4746,17 @@ input, select, textarea {
 	opacity: 0.8;
 }
 
-#myBtn:hover {
+/*#myBtn:hover {
 
 
-}
+}*/
 
 a#myBtn:focus {
 	-webkit-tap-highlight-color: transparent;
 	outline: none;
 }
 
-/* Estilo de foco para navegadores más antiguos (como IE) */
+/* Estilo de foco para navegadores mï¿½s antiguos (como IE) */
 a#myBtn::-moz-focus-inner {
 	border: 0;
 }
@@ -4761,9 +4764,46 @@ a#myBtn::-moz-focus-inner {
 
 .blurry {
 	border-radius: 10px;
-	background-color: rgba(255, 255, 255, 0.5); /* Ajusta el último valor (0.5) para cambiar la opacidad */
-	backdrop-filter: blur(4px); /* Ajusta el valor de desenfoque según sea necesario */
+	background-color: rgba(0, 0, 0, 0.5); /* Ajusta el ï¿½ltimo valor (0.5) para cambiar la opacidad */
+	backdrop-filter: blur(4px); /* Ajusta el valor de desenfoque segï¿½n sea necesario */
 	-webkit-backdrop-filter: blur(4px);
 	height: 75px;
 	text-align: center;
+}
+
+
+.titulo{
+	width: 45vw;
+}
+
+@media (max-width: 700px) {
+	/* Estilos para dispositivos mï¿½viles */
+	
+	.titulo{
+		width: 85vw;
+	}
+}
+
+@media (min-width: 1000px) {
+	/* Estilos para dispositivos mï¿½viles */
+	
+	.titulo{
+		width: 35vw;
+	}
+}
+
+@media (min-width: 1300px) {
+	/* Estilos para dispositivos mï¿½viles */
+	
+	.titulo{
+		width: 35vw;
+	}
+}
+
+@media (min-width: 1500px) {
+	/* Estilos para dispositivos mï¿½viles */
+	
+	.titulo{
+		width: 25vw;
+	}
 }
