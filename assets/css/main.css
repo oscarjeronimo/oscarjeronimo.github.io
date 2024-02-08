@@ -315,7 +315,7 @@ input, select, textarea {
 	}
 
 	a {
-		color: #76baff;
+		color: #ffffff;
 		border-bottom-color: rgba(33, 41, 49, 0.5);
 	}
 
@@ -4607,7 +4607,7 @@ input, select, textarea {
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		display: none;
 		-webkit-overflow-scrolling: touch;
-		background: #ffffff;
+		background: #111;
 		box-shadow: none;
 		color: #212931;
 		height: 100%;
@@ -4655,7 +4655,7 @@ input, select, textarea {
 			transition: color 0.2s ease-in-out;
 			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 			border: 0;
-			color: #909498;
+			color: #ffffff;
 			cursor: pointer;
 			display: block;
 			height: 3.25rem;

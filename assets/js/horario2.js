@@ -14,7 +14,7 @@ function cambiarMensaje() {
         if (horaActual >= 8.5) {
             elemento.textContent = 'Ahora mismo estamos abiertos. ¡Llamanos!';
         } else {
-            elemento.innerHTML = 'Ahora mismo estamos cerrados y no podremos atenderle, consulte nuestros <a href="#horarios">horarios</a>.';
+            elemento.innerHTML = 'Ahora mismo estamos cerrados y no podremos atenderle, consulte nuestros <a style="color: #76baff;" href="#horarios">horarios</a>.';
         }
     }
     if (diaDeLaSemana == 6 || diaDeLaSemana == 0) {
